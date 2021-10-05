@@ -1,0 +1,57 @@
+﻿<Window x:Class="UDPClientTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UDPClientTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal"
+                        Grid.Column="0">
+                <TextBlock Margin="10"
+                           Text="Host"
+                           TextAlignment="Center"
+                           FontSize="20"
+                           FontStretch="Normal"></TextBlock>
+                <TextBox Width="150" 
+                         x:Name="IP"
+                         Margin="10"
+                         Text="192.168.1.100"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                        Grid.Column="1">
+                <TextBlock Margin="10"
+                         Text="Port"
+                         TextAlignment="Center"
+                         FontSize="20"
+                         FontStretch="Normal"></TextBlock>
+                <TextBox Width="150"
+                         x:Name="Port"
+                         Margin="10"
+                         Text="80"></TextBox>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button Margin="50"
+                    Content="{Binding T_BT}"
+                    FontSize="50"
+                    x:Name="Test_BT"
+                    Click="Test_BT_Click"></Button>
+            <TextBox
+                x:Name="kq"
+                Text="{Binding Tx}"
+                VerticalAlignment="Bottom"
+                Height="30"></TextBox>
+        </Grid>
+    </Grid>
+</Window>

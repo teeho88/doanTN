@@ -1,0 +1,90 @@
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+d:\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Anime.exe
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Anime.pdb
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\Anime.exe
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\Anime.pdb
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Teeho\Desktop\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\Anime.exe
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\Anime.pdb
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\de\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\es\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\fr\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\hu\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\it\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\ja\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\pt\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\ru\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\sk\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\sv\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\tr\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\TAILIEU\MyProject\Project_inear_nav\AppControl\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
