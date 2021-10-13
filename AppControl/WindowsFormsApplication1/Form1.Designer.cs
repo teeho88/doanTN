@@ -47,7 +47,6 @@
             this.R_button = new System.Windows.Forms.Button();
             this.Gr_button = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.Ani_BT = new System.Windows.Forms.Button();
             this.autoScrollChB = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
@@ -233,10 +232,6 @@
             this.timer1.Interval = 20;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // timer2
-            // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
             // Ani_BT
             // 
             this.Ani_BT.Location = new System.Drawing.Point(512, 231);
@@ -301,7 +296,6 @@
         private System.Windows.Forms.Button Gr_button;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Button Ani_BT;
         private System.Windows.Forms.RadioButton UDPchooseBT;
         private System.Windows.Forms.RadioButton TCPchooseBT;
