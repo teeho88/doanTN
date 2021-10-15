@@ -28,7 +28,27 @@ namespace WindowsFormsApplication1
         {
             Adr_text.Text = "---.---.---.---";
             RunCMD("netsh interface ipv4 set address name=\"Wi-Fi\" static 192.168.1.100 255.255.255.0 192.168.1.1");
-            timer2.Enabled = true;
+            Thread waitAP = new Thread(new ThreadStart(() => {
+                while (true)
+                {
+                    string hostName = Dns.GetHostName();
+                    string myIP = Dns.GetHostByName(hostName).AddressList[0].ToString();
+                    if (myIP.Contains("192."))
+                    {
+                        MyMarshalToForm("Adr_text", myIP);
+                        MyMarshalToForm("En_Adr_Port","");
+                        break;
+                    }
+                    else
+                    {
+                        MyMarshalToForm("Adr_text", "---.---.---.---");
+                        Thread.Sleep(100);
+                    }
+                }
+            }));
+            waitAP.Start();
+            Ani = new MainWindow();
+            Graph = new Form2();
         }
 
         private void RunCMD(string cmdCommand)
@@ -166,7 +186,7 @@ namespace WindowsFormsApplication1
                         {
                             case 'Q':
                                 dataChoose = str.Split('!');
-                                dataStr = dataChoose[1].Remove(dataChoose[1].Length - 2).Split(',');
+                                dataStr = dataChoose[1].Split(',');
                                 if (dataStr.Length != 5) continue;
                                 for (int i = 0; i < 5; i++) data[i] = float.Parse(dataStr[i]);
                                 MyMarshalToForm("AddItemToListBox", "X: " + data[0]);
@@ -252,7 +272,7 @@ namespace WindowsFormsApplication1
                         {
                             case 'Q':
                                 dataChoose = str.Split('!');
-                                dataStr = dataChoose[1].Remove(dataChoose[1].Length - 2).Split(',');
+                                dataStr = dataChoose[1].Split(',');
                                 if (dataStr.Length != 5) continue;
                                 for (int i = 0; i < 5; i++) data[i] = float.Parse(dataStr[i]);
                                 MyMarshalToForm("AddItemToListBox", "X: " + data[0]);
@@ -341,7 +361,14 @@ namespace WindowsFormsApplication1
              case "ChangeCreateS_BT":
                     CreateS_BT.Text = formText;
                     break;
-             default: break;
+             case "Adr_text":
+                    Adr_text.Text = formText;
+                    break;
+                case "En_Adr_Port":
+                    Adr_text.Enabled = true;
+                    Port_text.Enabled = true;
+                    break;
+                default: break;
           }
         }
 
@@ -383,56 +410,65 @@ namespace WindowsFormsApplication1
         }
 
         Form2 Graph;
+        Stopwatch GraphStopW;
         private void Gr_button_Click(object sender, EventArgs e)
         {
             Graph = new Form2();
-            if (Mode == 'Q' && D_text.Text.Length > 0)
+            if (D_text.Text.Length > 0)
             {
-                if (D_text.Text.Length > 1)
+                if (Mode == 'Q')
                 {
-                    string Val_str = "";
-                    switch (D_text.Text.ToUpper()[1])
+                    if (D_text.Text.Length > 1)
                     {
-                        case 'P': Val_str = "Pitch"; break;
-                        case 'R': Val_str = "Roll"; break;
-                        case 'Y': Val_str = "Yaw"; break;
-                        default: break;
+                        string Val_str = "";
+                        switch (D_text.Text.ToUpper()[1])
+                        {
+                            case 'P': Val_str = "Pitch"; break;
+                            case 'R': Val_str = "Roll"; break;
+                            case 'Y': Val_str = "Yaw"; break;
+                            default: break;
+                        }
+                        Graph.Xmin = 0;
+                        Graph.Xmax = 80000;
+                        Graph.Ymin = -5;
+                        Graph.Ymax = 5;
+                        Graph.GraphTitle = "Đo góc";
+                        Graph.XTitle = "thời gian (ms)";
+                        Graph.YTitle = Val_str + " (degree)";
+                        Graph.Notation = Val_str;
                     }
-                    Graph.Xmin = 0;
-                    Graph.Xmax = 60000;
-                    Graph.Ymin = -5;
-                    Graph.Ymax = 5;
-                    Graph.GraphTitle = "Đo góc";
-                    Graph.XTitle = "thời gian (ms)";
-                    Graph.YTitle = Val_str;
-                    Graph.Notation = Val_str;
+                    else
+                    {
+                        Graph.Xmin = -100;
+                        Graph.Xmax = 100;
+                        Graph.Ymin = -100;
+                        Graph.Ymax = 100;
+                        Graph.GraphTitle = "Vị trí";
+                        Graph.XTitle = "X(m)";
+                        Graph.YTitle = "Y(m)";
+                        Graph.Notation = "Đường di chuyển";
+                    }
                 }
                 else
                 {
-                    Graph.Xmin = 100;
-                    Graph.Xmax = 100;
-                    Graph.Ymin = -100;
-                    Graph.Ymax = 100;
-                    Graph.GraphTitle = "Vị trí";
-                    Graph.XTitle = "X(m)";
-                    Graph.YTitle = "Y(m)";
-                    Graph.Notation = "Đường di chuyển";
+                    Graph.Xmin = 0;
+                    Graph.Xmax = 80000;
+                    Graph.Ymin = -5;
+                    Graph.Ymax = 5;
+                    Graph.GraphTitle = "Đo giá trị";
+                    Graph.XTitle = "thời gian (ms)";
+                    Graph.YTitle = "Đại lượng";
+                    Graph.Notation = "Giá trị";
                 }
+                Graph.Show();
+                tick = 0;
+                if (timer1.Enabled == false)
+                {
+                    timer1.Enabled = true;
+                }
+                GraphStopW = Stopwatch.StartNew();
             }
-            else
-            {
-                Graph.Xmin = 0;
-                Graph.Xmax = 60000;
-                Graph.Ymin = -5;
-                Graph.Ymax = 5;
-                Graph.GraphTitle = "Đo giá trị";
-                Graph.XTitle = "thời gian (ms)";
-                Graph.YTitle = "Đại lượng";
-                Graph.Notation = "Giá trị";
-            }
-            Graph.Show();
-            tick = 0;
-            if(timer1.Enabled == false) timer1.Enabled = true;
+            else MessageBox.Show("Typing measure mode in Command");
         }
 
         MainWindow Ani;
@@ -442,7 +478,10 @@ namespace WindowsFormsApplication1
             {
                 Ani = new MainWindow();
                 Ani.Show();
-                if (timer1.Enabled == false) timer1.Enabled = true;
+                if (timer1.Enabled == false)
+                {
+                    timer1.Enabled = true;
+                }
             }
             else MessageBox.Show("Not in quaternion mode!");
         }
@@ -482,13 +521,13 @@ namespace WindowsFormsApplication1
             }
         }
 
-        UInt32 tick = 0;
+        int tick = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
             switch (Mode)
             {
                 case 'Q':
-                    if (Graph != null && Graph.IsOpen)
+                    if (Graph.IsOpen)
                     {
                         try
                         {
@@ -506,12 +545,13 @@ namespace WindowsFormsApplication1
                                     case 'Y': i = 4; break;
                                     default: break;
                                 }
-                                Graph.Draw(tick += (uint)timer1.Interval, data[i]);
+                                Graph.Draw(tick, data[i]);
                             }
                         }
                         catch (Exception) {; }
+                        tick = (int)GraphStopW.ElapsedMilliseconds;
                     }
-                    if (Ani != null && Ani.IsOpen)
+                    if (Ani.IsOpen)
                     {
                         Ani.AxisPitch = data[2];
                         Ani.AxisRoll = data[3];
@@ -519,31 +559,26 @@ namespace WindowsFormsApplication1
                     };
                 break;
                 case 'M':
-                    if (Graph != null && Graph.IsOpen && D_text.Text.Length > 1)
+                    if (Graph.IsOpen && D_text.Text.Length > 1)
                     {
                         try
                         {
-                            Graph.Draw(tick += (uint)timer1.Interval, data[int.Parse(D_text.Text[1].ToString())]);
+                            Graph.Draw(tick, data[int.Parse(D_text.Text[1].ToString())]);
                         }
                         catch (Exception) {; }
+                        tick = (int)GraphStopW.ElapsedMilliseconds;
                     }
                 break;
                 default: break;
             }
-        }
-
-        private void timer2_Tick(object sender, EventArgs e)
-        {
-            string hostName = Dns.GetHostName();
-            string myIP = Dns.GetHostByName(hostName).AddressList[0].ToString();
-            if (myIP.Contains("192."))
+            if (!Graph.IsOpen)
             {
-                Adr_text.Text = myIP;
-                Adr_text.Enabled = true;
-                Port_text.Enabled = true;
-                timer2.Enabled = false;
+                if (!Ani.IsOpen)
+                {
+                    timer1.Enabled = false;
+                }
+                GraphStopW.Stop();
             }
-            else Adr_text.Text = "---.---.---.---";          
         }
 
         private void Adr_text_KeyDown(object sender, KeyEventArgs e)

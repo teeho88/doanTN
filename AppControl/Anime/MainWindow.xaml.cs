@@ -29,8 +29,12 @@ namespace Anime
         public MainWindow()
         {
             InitializeComponent();
-            IsOpen = true;
             DataContext = this;
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            IsOpen = true;
         }
 
         public float AxisYaw
