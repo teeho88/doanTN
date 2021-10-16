@@ -577,7 +577,7 @@ namespace WindowsFormsApplication1
                 {
                     timer1.Enabled = false;
                 }
-                GraphStopW.Stop();
+                if(GraphStopW != null) GraphStopW.Stop();
             }
         }
 
